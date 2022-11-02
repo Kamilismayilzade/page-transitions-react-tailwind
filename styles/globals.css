@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "NotoSerifDisplayThin";
+  src: url("../public/NotoSerifDisplay-Thin.ttf");
+}
+
+
+@font-face {
+  font-family: "NotoSerifDisplaySemiBold";
+  src: url("../public/NotoSerifDisplay-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "NotoSerifDisplayRegular";
+  src: url("../public/NotoSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NotoSerifDisplayMedium";
+  src: url("../public/NotoSerifDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "NotoSerifDisplayExtraLight";
+  src: url("../public/NotoSerifDisplay-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "NotoSerifDisplayExtraBold";
+  src: url("../public/NotoSerifDisplay-ExtraBold.ttf");
+}
+
+
+
+
+
+
+
+
+
+
